@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .button {
+    width: 100px;
+    height: 50px;
+    background-color: #ff4d4d;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    opacity: 1;
+    transition: all 1s ease-in-out;
+  }
+  
+  .shrink {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    padding: 0;
+  }
