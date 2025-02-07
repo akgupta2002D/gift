@@ -9,9 +9,10 @@ const HeartComponent = ({ onClick }) => {
     </div>
     <div className={styles.messageContainer}>
       <p>Hey Vedu! 😊</p>
-      <p>Thank you for being there in my life. You mean a lot to me.</p>
+      <p>Thank you for being there in my life. </p>
+      <p>You mean a lot to me.</p>
       <p className={styles.note}>
-        Every rose may fade, but my love for you blooms forever. Happy Rose Day, my love! 🌹❤️
+       Happy Rose Day, my love! 🌹❤️
       </p>
     </div>
     </>
