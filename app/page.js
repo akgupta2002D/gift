@@ -6,6 +6,16 @@ export default function Home() {
       <div className="background-sheet sheet1" />
       <div className="background-sheet sheet2" />
 
+      <div className="left-sidebar scroll-aware">
+        <div className="sidebar-topic">Two Letters Two Truths</div>
+        <a href="/" className="nav-button highlight-button">The Apology</a>
+        <a href="/story" className="nav-button highlight-button">Somethings Untold</a>
+        <p className="sidebar-hint">Tap or click to view</p>
+      </div>
+
+
+
+
       <main className="paper">
         <h2 style={{ fontSize: '1rem', marginBottom: '1.5rem', fontWeight: 'bold' }}>
           TO WHOM I HURT THE MOST
@@ -31,6 +41,17 @@ export default function Home() {
           My apology stands complete as is. What follows isn't meant to justify or excuse my actions—nothing can. I'm sharing something I never got to tell you because I believe you deserve the full story.
         </p>
       </main>
+      <div className="voice-note-box">
+        <p>Text doesn’t do justice to emotion.<br />If you wanted to hear me say this, here’s a voice note.</p>
+        <audio controls preload="metadata">
+          <source src="/voice/apology.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+
+      </div>
+
+      
+
 
     </div>
   );
