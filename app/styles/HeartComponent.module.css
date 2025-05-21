@@ -25,9 +25,9 @@
     backdrop-filter: blur(12px);
     background: linear-gradient(
       135deg,
-      #ffffff 0%,
-      #ff77e9 40%,
-      #77e4ff 100%
+      #ff18c5 0%,
+      #3126fa 40%,
+      #ffffff 100%
     );
     color: #240046;
     font-size: 1.2rem;
