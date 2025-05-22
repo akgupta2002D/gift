@@ -126,15 +126,27 @@ body {
     max-height: none;
     margin-top: 2rem;
     box-shadow: none;
-    padding: 1.5rem;
+    
   }
 
   .page {
     flex-direction: column;
     align-items: center;
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem; /* adds horizontal margin on small screens */
   }
 
+  .paper,
+  .story-flipbook,
+  .flipbook-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .left-sidebar {
+    margin-bottom: 1.5rem; /* ensures spacing below nav on small screens */
+  }
   .voice-note-box {
     position: static;
     width: 100%;
@@ -255,4 +267,40 @@ body {
   color: #f0d9a2;
   cursor: pointer;
   box-shadow: 0 0 0 1px rgba(203, 171, 88, 0.2);
+}
+
+
+@media (max-width: 768px) {
+  .left-sidebar {
+    position: static;
+    top: auto;
+    left: auto;
+    width: 100%;
+    max-width: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    background-color: #1a1a1a;
+    padding: 0.75rem 1rem;
+    border: 1px solid rgba(255, 215, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    z-index: 10;
+  }
+
+  .left-sidebar .nav-button {
+    flex: 1;
+    margin: 0 0.25rem;
+    padding: 0.4rem 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  .sidebar-topic {
+    display: none;
+  }
+
+  .sidebar-hint {
+    display: none;
+  }
 }

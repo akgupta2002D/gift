@@ -131,7 +131,44 @@
   .flipbook-pages::before {
     display: none;
   }
+   
 }
+
+@media (max-width: 768px) {
+  .story-flipbook {
+    padding: 1rem !important; /* ensure margin inside container */
+  }
+
+  .flipbook-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .page {
+    width: 100% !important;
+    box-sizing: border-box;
+    padding: 1.25rem;
+  }
+
+  .spread-title {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+  }
+
+  .left-sidebar {
+    width: 100%;
+    max-width: none;
+    flex-direction: column;
+    align-items: stretch;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+}
+
 .spread-title {
   font-size: 1.4rem;
   font-weight: bold;
