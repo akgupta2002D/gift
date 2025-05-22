@@ -55,8 +55,8 @@
 
 .story-title {
   font-size: 1rem;
+  margin: 0.5rem 0rem;
   font-weight: bold;
-  margin-bottom: 1rem;
   color: #CBAB58;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -64,7 +64,7 @@
 
 .story-text {
   font-size: 1.02rem;
-  line-height: 1.6;
+  line-height: 1.4;
   color: #CBAB58;
   white-space: pre-wrap;
 }

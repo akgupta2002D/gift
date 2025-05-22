@@ -49,7 +49,7 @@ p {
 }
 
 .paper::-webkit-scrollbar-track {
-  background: white; /* Very dark track */
+  background: black; /* Very dark track */
 }
 
 .paper::-webkit-scrollbar-thumb {
