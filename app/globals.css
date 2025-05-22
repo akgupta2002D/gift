@@ -38,12 +38,36 @@ p {
   border-radius: 16px;
   box-shadow: 0 20px 50px rgba(255, 215, 0, 0.1), 0 8px 20px rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(255, 215, 0, 0.05);
-  overflow-y: auto;
-  scrollbar-width: none;
+  overflow-y: scroll;
+  /* scrollbar-width: none; */
   z-index: 5;
 }
 
+/* WebKit Browsers: Chrome, Safari */
+.paper::-webkit-scrollbar {
+  width: 8px;
+}
 
+.paper::-webkit-scrollbar-track {
+  background: white; /* Very dark track */
+}
+
+.paper::-webkit-scrollbar-thumb {
+  background-color: #2c2c2c;
+  border-radius: 6px;
+  border: 1px solid #444;
+  box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.1);
+}
+
+.paper::-webkit-scrollbar-thumb:hover {
+  background-color: #3a3a3a;
+}
+
+/* Firefox */
+.paper {
+  scrollbar-color: #2c2c2c #111;
+  scrollbar-width: thin;
+}
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
@@ -210,4 +234,25 @@ body {
   opacity: 0.5;
   margin-top: 0.5rem;
   text-align: center;
+}
+
+.inline-boxed-link {
+  display: inline-block;
+  font-weight: bold;
+  color: #CBAB58;
+  border: 1px solid #CBAB58;
+  padding: 0.35rem 0.75rem;
+  border-radius: 8px;
+  background-color: transparent;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  margin-left: 0.2rem;
+  font-size: 0.95rem;
+}
+
+.inline-boxed-link:hover {
+  background-color: rgba(203, 171, 88, 0.12);
+  color: #f0d9a2;
+  cursor: pointer;
+  box-shadow: 0 0 0 1px rgba(203, 171, 88, 0.2);
 }
