@@ -178,3 +178,9 @@
   margin-bottom: 2rem;
   text-align: center;
 }
+
+.a_text{
+  color: white;
+  font-weight: medium;
+  text-decoration: none;
+}

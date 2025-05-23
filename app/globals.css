@@ -15,6 +15,7 @@ html, body {
   align-items: start;
   padding: 3rem 1rem;
   position: relative;
+  z-index: 100;
 }
 
 /* Paragraph styling */
@@ -241,11 +242,12 @@ body {
 }
 
 .sidebar-hint {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   color: #CBAB58;
-  opacity: 0.5;
+  opacity: 0.6;
   margin-top: 0.5rem;
   text-align: center;
+  
 }
 
 .inline-boxed-link {
