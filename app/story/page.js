@@ -38,7 +38,7 @@ const spreads = [
         title: null,
         content: (
           <>
-            Overwhelmed by the diagnosis, existing anxiety about floaters, and not having any answers, for the first time in my life–I choose to drink to escape. I just wanted to feel okay, to go numb for one night and dance. But it made everything worse. I was drinking out of pain, and that pain brought out a version of me I didn’t recognize. I said things I didn’t mean, became someone who caused you fear and hurt. Something I regret doing every single day. What I should’ve done was tell you I wasn’t okay and skip the party entirely. But before I could, I blacked out unusually fast—even before the party. Life collapsed too fast, I kept making mistakes the next day. There are reasons, not excuses, to that, but letter would be too long to include them.
+            Overwhelmed by the diagnosis, existing anxiety about floaters, and not having any answers, for the first time in my life–I choose to drink to escape. I just wanted to feel okay, to go numb for one night and dance. But it made everything worse. I was drinking out of pain, and that pain brought out a version of me I didn’t recognize. It created a night totally out of character and I will regret it all my life. What I should’ve done was tell you I wasn’t okay and skip the party entirely. But before I could, I blacked out unusually fast—even before the party. Life collapsed too fast, I kept making mistakes the next day. There are reasons, not excuses, to that, but letter would be too long to include them.
             <br /><br />
             The most painful part is: the Monday morning, the day we broke up, I was in a hospital gown getting scans. When your message came asking to meet in the evening, I replied I couldn’t and said I was fine with your decision. Not because I didn’t care—but because I was shattered. I was crying, waiting for medical answers while facing the reality that I'd just destroyed our relationship. I lost hope.
             <br /><br />
@@ -50,11 +50,11 @@ const spreads = [
         title: "Reflection",
         content: (
           <>
-          The truth is, those health scares changed me—I went from being independent, grounded, and caring to someone anxious, lost, bitter and quietly dependent. I denied that for a long time because I was taught that I can’t be weak. That denial brought us to a breaking point.
+          The truth is, those health scares changed me—I went from being independent, grounded, and caring to someone anxious, bitter and quietly dependent in a short period of time. I denied that because I was taught that I can’t be weak or vulnerable. I also didn't realize how drastically it had affected my mental health. That denial brought us to a breaking point.
             <br /><br />
-            I spent a lot of time reflecting, fixing my health, and working a better mindset to finally arrive at a clarity I have now. Veda, I see your pain so clearly now. I made you carry a version of me I didn't even understand. I was too consumed by my own struggles to notice how much you were already holding—your art, friends, health, sleep—while I only saw what I lacked. That wasn’t fair. The fact that I was the reason for your pain breaks me every day. I am sorry.
+             I spent a lot of time reflecting, fixing my health, and working a better mindset to finally arrive at a clarity I have now. Veda, I see your pain so clearly now. I made you carry a version of me I didn't even understand. I was too consumed by my own struggles to notice how much you were already holding—your art, friends, health, sleep—while I only saw what I lacked. That wasn’t fair. The fact that I was the reason for your pain breaks me every day. I am sorry.
             <br /><br />
-            I just wish I wasn’t tested so much by life in those few weeks. I was losing on all fronts—fighting health scares, losing myself, and failing you—with no room to breathe between crises. I wish timing had been kinder to us or I had recovered faster. 
+            I wish I wasn’t tested so much by life in those few weeks or atleast I had the capacity to deal with it all. I was losing on all fronts—fighting health scares, losing myself, and failing you—with no room to breathe between crises. And, I wish timing had been kinder to us.
 
           </>
         )
@@ -71,10 +71,15 @@ const spreads = [
           <>
           <b>Amid all of this I want you to know that:</b>
           <br /> <br />
-             I have never wished upon any harm to you. Every part of me wanted only to protect you. But my actions hurt you, I know that with aching clarity and I take responsibility. Hurting wasn't my intention, I was just drowning in a storm that consumed every shore I'd known, and I didn’t know how to ask for help. Moreover, what we shared was real and meaningful to me. I deeply care about you and who you are. Lastly, If I had the slightest clue how disastrously that night would unfold. If life had given me even one experience remotely close to that, I would have learned and done anything to prevent it. I understand myself now in ways I didn't then, and I will never make that mistake again.
+             I have never wished upon any harm to you. Every part of me wanted only to protect you. Hurting wasn't my intention, I was just drowning in a storm that consumed every shore I'd known, and I didn’t know how to ask for help. But my actions hurt you, I know that with aching clarity and I take responsibility. 
+             <br /> <br />
+             Moreover, what we shared was real and meaningful to me. I deeply care about you and who you are. Even the night before everything shattered, we created memories making pani-puri together. Even sick, all that mattered to me was you and that pengiun face of yours that made my heart skip.
+             <br /><br />
+             Lastly, I cannot change what happened that night. But if I had the slightest clue how disastrously it would unfold—if life had given me even one experience remotely close to that—I would have learned and done everything to prevent it. I understand myself now in ways I didn't then, and I will never make that mistake again.
             <br /><br />
+            Forgiveness isn't asked for, but I hope I can earn it someday.
 
-            Maybe this will be another mistake. But, if any part of you ever doubted that I cared or loved you as these things happened, I made a small capsule with something for you. Open it if your heart ever feels like it, they are somethings I didn't know if I should share but was too hard to carry within me. You can find it here. <a className='a_text' href="/capsule">Click for the Capsule</a>.
+            {/* Maybe this will be another mistake. But, if any part of you ever doubted that I cared or loved you as these things happened, I made a small capsule with something for you. Open it if your heart ever feels like it, they are somethings I didn't know if I should share but was too hard to carry within me. You can find it here. <a className='a_text' href="/capsule">Click for the Capsule</a>. */}
             
 
 
@@ -82,14 +87,13 @@ const spreads = [
         )
       },
       {
-        title: null,
+        title: "IF ONLY",
         content: (
           <>
-            None of what I shared is supposed to be an excuse for my actions. But it was a tragedy, very bad sequence of events happening at the same time, that led to an awful outcome. And forgiveness isn't asked, hopefully someday I will be able to earn it.
+            If life hadn't collapsed on me all at once or if I had been healthier quicker, I believe we would have found our way. I would've been stronger for us. An independent me would have respected your space naturally and I would have never resolved to alcohol to numb my pain. I would have communicated clearly. Instead of being defensive about our breakup, I would have asked for a chance to build enough good memories that the old pain would fade, and build the trust again. Almost like what you once wanted from me: To love you first.
             
             <br /><br />
-            Alas,
-            <br /><br />
+            Alas,<br />
             <b>One of the most beautiful things in my life happened during one of the most painful seasons of my life.</b>
            
 
