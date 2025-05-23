@@ -34,7 +34,7 @@ export default function Capsule() {
           
           With love, deepest apologies, and nothing left unsaid.
           <br /> <br />
-          I love you, I am sorry!
+          
         </>
       )
     }
