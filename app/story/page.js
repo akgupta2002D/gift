@@ -13,7 +13,7 @@ const spreads = [
         title: null,
         content: (
           <>
-            Veda, I know I was hurting you in those final weeks and putting strain on us that neither of us understood at the time. I've spent months reflecting on what happened, and I need to share the context I couldn't give you then—not as an excuse, but because you deserved to know why someone who loved you so deeply became so unrecognizable. What I'm about to tell you, I only fully understood after we ended and somethings, I didn’t get the chance to tell you as it happened exactly when we parted. This is a little long, so bear with me!
+            Veda, I know I was hurting you in those final weeks and putting strain on us that neither of us understood at the time. I've spent some time reflecting on what happened, and I need to share the context I couldn't give you then—not as an excuse, but because you deserved to know why someone who loved you so deeply became so unrecognizable. What I'm about to tell you, I only fully understood after we ended, and somethings, I didn’t get the chance to tell you as it happened exactly when we parted. This is a little long, so bear with me!
             <br /> <br />
             WHAT I COULDN'T TELL YOU:
             <br /><br />
@@ -96,7 +96,7 @@ const spreads = [
            <br />
             From this reflection all I wanted to say is, we were tested by forces beyond our control and unfortunate sequence of events. And the person who fell in love with you in November, who wanted to protect you from everything—that person never wanted to hurt you, not for a second. He never stopped caring. Even sick, he was trying but his struggles overshadowed his care. 
             <br /><br />
-            Life tested me in those few weeks in ways I didn't know where possible, and I wasn’t prepared. I wish I could have been stronger for you. I wish I could have said 'I'm not okay' instead of letting my pain strain us. I wish we had some time to breathe. 
+            Life tested me in those few weeks in ways I didn't know where possible, and I wasn’t prepared. I wish I could have been stronger for you. I wish I could have said 'I'm not okay' instead of letting my pain strain us. I wish we had some time to breathe. I wish I had recovered sooner.
             <br />Alas,<br />
             <b>One of the most beautiful things in my life happened during one of the most painful seasons of my life, and I wish I had more strength.</b>
            
