@@ -14,8 +14,8 @@ const spreads = [
         content: (
           <>
             Veda, I know I was hurting you in those final weeks and putting strain on us that neither of us understood at the time. I've spent months reflecting on what happened, and I need to share the context I couldn't give you then—not as an excuse, but because you deserved to know why someone who loved you so deeply became so unrecognizable. What I'm about to tell you, I only fully understood after we ended and somethings, I didn’t get the chance to tell you as it happened exactly when we parted. This is a little long, so bear with me!
-            <br /><br />
-            THE STORY – THE PERFECT TRAGEDY
+            <br /> <br />
+            WHAT I COULDN'T TELL YOU:
             <br /><br />
             When you first found me Veda, around early November, I was an ambitious, caring, independent, and a happy person. Most of all, I was full of love which I was so happy to share with you. I was truly happy to have found you, and I hope that showed.
             <br /><br />
