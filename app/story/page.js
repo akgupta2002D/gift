@@ -1,7 +1,9 @@
 'use client';
 import './story.css';
 import '../globals.css';
+
 import { useState } from 'react';
+import Link from 'next/link';
 
 const spreads = [
   {
@@ -131,6 +133,14 @@ export default function StoryFlipbook() {
         <a href="/" className="nav-button highlight-button">The Apology - Go back</a>
         <p className="sidebar-hint">Tap or click to view</p>
       </div>
+
+      <div className="gallery-note-box fixed-gallery">
+            <p>
+            Here are some memories of you, I am not in them, that I couldn't erase
+            but it hurt too much to keep as well. You may want to see them someday.<br />
+            </p>
+            <Link href="/gallery" className="nav-button">→ Go to Gallery</Link>
+        </div>
 
       <div className="story-flipbook">
         <div className="flipbook-wrapper">

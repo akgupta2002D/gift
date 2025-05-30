@@ -36,7 +36,8 @@ export default function Home() {
 
         <p>My apology stands complete as is. No context can change what I did – nothing.</p>
         <p>
-          None of this came from wanting to hurt you. I was going through some difficult things at the time that I wasn't handling well, and unfortunately the timing meant we didn't get the chance to talk. I didn’t even know how to share. You ended up bearing the weight of struggles that weren't yours. It was a sequence of difficult events with no time to breathe between them, too many external factors hitting us at once. And we each carried a different story of what happened during the last weeks and our breakup, and that is the saddest part. Almost a perfect tragedy.
+          P.S: None of this came from wanting to hurt you. I was going through some difficult things at the time that I wasn't handling well, and unfortunately the timing meant we didn't get the chance to talk. I didn’t even know how to share. You ended up bearing the weight of struggles that weren't yours. It was a sequence of difficult events with no time to breathe between them, too many external factors hitting us at once. And we each carried a different story of what happened during the last weeks and our breakup, and that is the saddest part. Almost a perfect tragedy.
+          <br />
           <a href="/story" className="inline-boxed-link strong-highlight">
             Click to read - Somethings Untold
           </a>
