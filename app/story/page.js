@@ -5,27 +5,31 @@ import { useState } from 'react';
 
 const spreads = [
   {
-    spreadTitle: 'The part of our story I understood late',
+    spreadTitle: 'THE OTHER SIDE OF THE STORY',
     pages: [
       {
-        title: 'SLOW CHANGE - The Floaters',
+        title: null,
         content: (
           <>
-            When you first found me around early November, I was an ambitious, confident, and independent person. And most of all, I was full of love that I was happy to share with you. But things started to change slowly and in ways I couldn’t see then.
+            Veda, I know I was hurting you in those final weeks and putting strain on us that neither of us understood at the time. I've spent months reflecting on what happened, and I need to share the context I couldn't give you then—not as an excuse, but because you deserved to know why someone who loved you so deeply became so unrecognizable. What I'm about to tell you, I only fully understood after we ended and somethings, I didn’t get the chance to tell you as it happened exactly when we parted. This is a little long, so bear with me!
             <br /><br />
-            By Spring Break, the floaters had taken over my life. I wish I could show you how bad it looked. Doctors kept saying they were normal, but they weren’t, they weren't even floaters to begin with—and only after our breakup--visiting specialists in Albany and NYC finally confirmed they were serious and gave me a treatment plan. But the damage was done. I wasn’t just annoyed by this disease—I was going crazy, constantly anxious. Waking up to see hundreds of these dark things floating across my vision every morning and throughout the day, left me feeling deeply frustrated and defeated. I dreaded daylight, wore sunglasses all the time, and stayed alone in my dark room. Without realizing, I was withdrawing from life itself – skipped classes and job shifts, stopped research, socializing, talking back home and abandoned small things like walking you back to your dorm in the morning. I was finding every excuse to not walk outside. I was losing pieces of myself.
-
-
+            THE STORY – THE PERFECT TRAGEDY
+            <br /><br />
+            When you first found me Veda, around early November, I was an ambitious, caring, independent, and a happy person. Most of all, I was full of love which I was so happy to share with you. I was truly happy to have found you, and I hope that showed.
+            <br /><br />
+            It would have remained that way, but life hit me with things I wasn’t prepared for. By Spring Break, the floaters had taken over my life. You knew I was affected but not the real extent of it. 
           </>
         )
       },
       {
-        title: 'HEALTH CRISIS',
+        title: null,
         content: (
           <>
-            Nothing felt good because I was losing my drive, was becoming insecure about life, and very scared. You were the only thing that brought joy, so I clung to you—I became dependent and grew bitter, and worst of all I didn’t even realize it. The timing was cruel too—things got worse for me just when you had your hardest academic season. This mismatch created arguments around our time together, majority of our fights. Looking back, all I really wanted to say was: your presence alone made me feel safe—and less sick.
+            I wish I could have shown you how bad it looked. Doctors and people around me kept saying they were normal, but they weren’t—and only after our breakup--visiting specialists in Albany and NYC finally confirmed they were a rare and intrusive condition. But the damage was done, it messed up my mind and who I was. 
             <br /><br />
-           We could have fixed those issues with honest conversations and as workload got better but life had other plans. The week before that terrible weekend, I received another devastating diagnosis: blood in my urine, requiring scans on all my vital organs. If you remember, one of the nights I had run to the washroom saying something hurt—this was related to that. This new health crisis came while I was already struggling with my vision and feeling us drift apart. I was terrified and wanted to talk to you—because if something was seriously wrong, I'd want you there. But we never got enough time to chat about everything that week. I also was waiting to get the scans done before sharing.
+           Waking up with these things in my vision, left me feeling deeply frustrated and defeated every day. Without realizing, I was withdrawing from life itself – skipped classes and shifts, socializing, talking back home, taking you on dates, and abandoned small things like walking you back to your dorm in the morning. I was finding every excuse to not walk outside during the day because I was scared. It might have felt like I was trying to hurt you or was dissatisfied with our relationship, but no, I was hurting everywhere and all aspects of my life. I was losing pieces of myself. 
+           <br /><br />
+           But I acted like I was fine, because that's all I was taught—never burden others or be vulnerable. In those weeks, you were the only joy in my life, so I wanted you around but didn’t ask for that properly. The constant frustration from vision made me bitter—I blamed you and got upset over small things that shouldn't have mattered. 
           </>
         )
       }
@@ -38,24 +42,22 @@ const spreads = [
         title: null,
         content: (
           <>
-            Overwhelmed by the diagnosis, existing anxiety about floaters, and not having any answers, for the first time in my life–I choose to drink to escape. I just wanted to feel okay, to go numb for one night and dance. But it made everything worse. I was drinking out of pain, and that pain brought out a version of me I didn’t recognize. It created a night totally out of character and I will regret it all my life. What I should’ve done was tell you I wasn’t okay and skip the party entirely. But before I could, I blacked out unusually fast—even before the party. Life collapsed too fast, I kept making mistakes the next day. There are reasons, not excuses, to that, but letter would be too long to include them.
+            I didn't realize it then, but I hate that I let my pain strain us and hurt you. Moreover, the timing was cruel—things got worse for me just as your academic season got hardest. This mismatch created most of our fights about time together. My brain interpreted you being busy as abandonment, because I was already feeling so alone. Looking back, all I wanted to say was that your presence made me feel safe--and less sick and bit hopeful. I just couldn't find the right words.
             <br /><br />
-            The most painful part is: the Monday morning, the day we broke up, I was in a hospital gown getting scans. When your message came asking to meet in the evening, I replied I couldn’t and said I was fine with your decision. Not because I didn’t care—but because I was shattered. I was crying, waiting for medical answers while facing the reality that I'd just destroyed our relationship. I lost hope.
+            We could have fixed those issues with honest conversations as my vision improved and your workload eased, but life had other plans. The week before that terrible weekend, I received another devastating diagnosis: blood in my urine, requiring scans on all my vital organs. It could mean anything, and it was really scary. If you remember, one of the nights I had run to the washroom saying something hurt—this was related to that. This new health crisis came while I was already struggling with my vision and feeling us drift apart. I was terrified and wanted to talk to you—because if something was seriously wrong, I'd want you there. But we didn’t get enough time that week, and I was waiting for the scan results before sharing anything. It was eating me alive, which caused a lot of my frustration that week. 
             <br /><br />
-            <b>Life couldn’t have been any more real and the timing couldn’t be any worse.</b>
+             
           </>
         )
       },
       {
-        title: "Reflection",
+        title: null,
         content: (
           <>
-          The truth is, those health scares changed me—I went from being independent, grounded, and caring to someone anxious, bitter and quietly dependent in a short period of time. I denied that because I was taught that I can’t be weak or vulnerable. I also didn't realize how drastically it had affected my mental health. That denial brought us to a breaking point.
-            <br /><br />
-             I spent a lot of time reflecting, fixing my health, and working a better mindset to finally arrive at a clarity I have now. Veda, I see your pain so clearly now. I made you carry a version of me I didn't even understand. I was too consumed by my own struggles to notice how much you were already holding—your art, friends, health, sleep—while I only saw what I lacked. That wasn’t fair. The fact that I was the reason for your pain breaks me every day. I am sorry.
-            <br /><br />
-            I wish I wasn’t tested so much by life in those few weeks or atleast I had the capacity to deal with it all. I was losing on all fronts—fighting health scares, losing myself, and failing you—with no room to breathe between crises. And, I wish timing had been kinder to us.
-
+             Overwhelmed by the diagnosis, existing anxiety about vision, and not having any answers, for the first time in my life–I choose to drink to escape. I just wanted to feel okay, to go numb for one night and dance. But it made everything worse. Bottling up, anxiety, fear, and frustration, it created a night totally out of character, and I will regret it all my life.What I should’ve done was tell you I wasn’t okay and skip the party entirely. But before I could, I blacked out unusually fast—even before the party started. I later found out that mixing my new stress and anxiety supplements with alcohol can mess with brain and cause symptoms. This doesn’t excuse my behavior but it’s one other thing that went wrong. Everything collapsed after that night. I kept making mistakes the next day—leaving that morning, Deewane, how I handled our conversation— I couldn't think clearly. There's more context, but this letter is already long.
+             <br /><br />
+             The most painful part is the Monday morning, the day we broke up, I was in a hospital getting those scans. When your message came, asking to meet in the evening, I replied I couldn’t and said I was fine with your decision. Not because I didn’t care—but because I was shattered. I had no emotional or mental energy left, and life felt uncertain. I was crying, waiting for medical answers while facing the reality that I'd just destroyed our relationship from a night I have no recollection of. I lost hope. I was angry at life. 
+             
           </>
         )
       },
@@ -69,15 +71,13 @@ const spreads = [
         title: null,
         content: (
           <>
-          <b>Amid all of this I want you to know that:</b>
-          <br /> <br />
-             I have never wished upon any harm to you. Every part of me wanted only to protect you. Hurting wasn't my intention, I was just drowning in a storm that consumed every shore I'd known, and I didn’t know how to ask for help. But my actions hurt you, I know that with aching clarity and I take responsibility. 
-             <br /> <br />
-             Moreover, what we shared was real and meaningful to me. I deeply care about you and who you are. Even the night before everything shattered, we created memories making pani-puri together. Even sick, all that mattered to me was you and that pengiun face of yours that made my heart skip.
+
+             <b>Life got too real, and the timing couldn’t be any worse.</b>
              <br /><br />
-             Lastly, I cannot change what happened that night. But if I had the slightest clue how disastrously it would unfold—if life had given me even one experience remotely close to that—I would have learned and done everything to prevent it. I understand myself now in ways I didn't then, and I will never make that mistake again.
-            <br /><br />
-            Forgiveness isn't asked for, but I hope I can earn it someday.
+             I wanted to text, call, or meet you after some days and share everything but I saw that you didn’t even want to look at me, which is fair. I knew any rushed explanation would only hurt you, would sound like an excuse. I understood then that if I am ever to get to talk to you again or even deserve to write to you, I needed to get myself back, get over this victim mentality. The health stuff kept going, the scans came out fine, but it took some time and more appointments. I had to fix my vision; I went to Albany and NYC until I found a treatment. As I did all that, I also reflected on our relationship, worked hard to rebuild myself and gain clarity as to what happened. This letter is that reflection. 
+             <br /><br />
+             Veda, I see your pain so clearly now. Towards the end, I made you carry a broken version of me that I didn't even understand—someone bitter and demanding. I have never been like that and never wanted to be. I was trying to be there for you, but I was also too consumed by my own struggles to notice how much you were already holding—your art, friends, health, sleep. That wasn’t fair. And you didn’t deserve that night or how it all went afterwards. 
+             
 
             {/* Maybe this will be another mistake. But, if any part of you ever doubted that I cared or loved you as these things happened, I made a small capsule with something for you. Open it if your heart ever feels like it, they are somethings I didn't know if I should share but was too hard to carry within me. You can find it here. <a className='a_text' href="/capsule">Click for the Capsule</a>. */}
             
@@ -87,20 +87,20 @@ const spreads = [
         )
       },
       {
-        title: "IF ONLY",
+        title: null,
         content: (
           <>
-            If life hadn't collapsed on me all at once or if I had been healthier quicker, I believe we would have found our way. I would've been stronger for us. An independent me would have respected your space naturally and I would have never resolved to alcohol to numb my pain. I would have communicated clearly. Instead of being defensive about our breakup, I would have asked for a chance to build enough good memories that the old pain would fade, and build the trust again. Almost like what you once wanted from me: To love you first.
-            
+            We were living in completely different realities of what was happening, while I was drowning in medical fears and panic, you were watching someone you cared about become unrecognizable without understanding why, this is why I called it a tragedy. 
+           <br />
+            From this reflection all I wanted to say is, we were tested by forces beyond our control and unfortunate sequence of events. And the person who fell in love with you in November, who wanted to protect you from everything—that person never wanted to hurt you, not for a second. He never stopped caring. Even sick, he was trying but his struggles overshadowed his care. 
             <br /><br />
-            Alas,<br />
-            <b>One of the most beautiful things in my life happened during one of the most painful seasons of my life.</b>
+            Life tested me in those few weeks in ways I didn't know where possible, and I wasn’t prepared. I wish I could have been stronger for you. I wish I could have said 'I'm not okay' instead of letting my pain strain us. I wish we had some time to breathe. 
+            <br />Alas,<br />
+            <b>One of the most beautiful things in my life happened during one of the most painful seasons of my life, and I wish I had more strength.</b>
            
 
             <br /><br />
-            I just wanted to make sure my silence didn't become the last thing you remember. 
-                        <br /><br />  
-            <em>Thank you for loving me during one of the hardest chapters of my life. I'll always carry that with care.</em>
+            <em>Thank you for loving me during one of the hardest chapters of my life.</em>
 
             <br /><br />
             
