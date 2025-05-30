@@ -41,14 +41,17 @@ export default function Home() {
           <a href="/story" className="inline-boxed-link strong-highlight">
             Click to read - Somethings Untold
           </a>
+          
         </p>
         
       </main>
+
+      <div className="voice-note-box">
+        <p>Scroll down on the letter to see everything.</p>
+
+      </div>
       
 
-      
-
-      
 
 
     </div>
